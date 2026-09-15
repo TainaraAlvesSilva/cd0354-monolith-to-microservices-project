@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  POSTGRES_HOST: "SEU_ENDPOINT_RDS.rds.amazonaws.com"
+  POSTGRES_DB: "postgres"
+  AWS_BUCKET: "SEU_BUCKET_S3"
+  AWS_REGION: "us-east-1"
+  URL: "http://localhost:8100"
