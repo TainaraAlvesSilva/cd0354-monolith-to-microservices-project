@@ -3,8 +3,8 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  POSTGRES_HOST: "SEU_ENDPOINT_RDS.rds.amazonaws.com"
-  POSTGRES_DB: "postgres"
-  AWS_BUCKET: "SEU_BUCKET_S3"
+  AWS_BUCKET: "udagram-tainara"
   AWS_REGION: "us-east-1"
+  POSTGRES_DB: "postgres"
+  POSTGRES_HOST: "udagram.ch5su7qryhwk.us-east-1.rds.amazonaws.com"
   URL: "http://localhost:8100"
